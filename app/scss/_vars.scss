@@ -1,0 +1,69 @@
+$accent-color: #ff6838;
+$neutral-color: #31352b;
+$default-color: #363853;
+$white-color: #ffffff;
+$black-color: #000000;
+$bg-color: #f9faff;
+$active-color: #fff2ed;
+$background-color: #f9faff;
+$background-light: #ececec;
+$medium-gray: #c2c2c2;
+$light-gray: #c1c1c1;
+$border-color: #eeeff3;
+$button-color: #faeded;
+$subtitle-color: #505050;
+$border-color: #e4e4e4;
+$muted-green: rgba(49, 53, 43, 0.5);
+
+%rubik-400 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+%rubik-500 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+%rubik-300 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+%rubik-latin {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+%flex-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%fl_al-style {
+  display: flex;
+  align-items: center;
+}
+
+%img-style {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+%logo {
+  display: block;
+  right: 0;
+  height: 2px;
+  width: 30px;
+  background-color: $default-color;
+}
+
+$breakpoints: (
+  "desktop": 1230px,
+  "tablet-2": 992px,
+  "tablet": 768px,
+  "phone": 560px,
+);
