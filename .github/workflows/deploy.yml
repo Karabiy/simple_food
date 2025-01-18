@@ -33,6 +33,12 @@ jobs:
           npm install
           npm install --save-dev gulp@4.0.2
 
+      - name: Generate styles
+        run: gulp styles
+
+      - name: Generate scripts
+        run: gulp scripts
+
       - name: Build with Gulp
         run: gulp build
 
